@@ -1,0 +1,18 @@
+.performance {
+  padding-top: 100px;
+}
+
+@media (min-width: 1024px) {
+  .performance {
+    /* overflow-y: hidden; */
+    /* overflow-x: auto; */
+    /* 3+ */
+    display: grid;
+    grid-template-columns: 480px 480px 480px;
+    /* 2 */
+    /* grid-template-columns: 540px 540px;
+    justify-content: center; */
+    /* 1 */
+    /* grid-template-columns: 720px 720px; */
+  }
+}

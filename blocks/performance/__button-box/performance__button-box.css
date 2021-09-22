@@ -1,0 +1,15 @@
+.perfomance__button-box {
+  display: flex;
+  gap: 27px;
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+@media (min-width: 1024px) {
+  .perfomance__button-box {
+    gap: 16px;
+    flex-direction: column;
+    grid-column-start: 2;
+    grid-column-end: 3;
+  }
+}

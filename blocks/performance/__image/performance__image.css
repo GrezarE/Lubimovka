@@ -1,0 +1,11 @@
+.performance__image {
+  height: 123px;
+  width: 92px;
+}
+
+@media (min-width: 1024px) {
+  .performance__image {
+    height: 161px;
+    width: 120px;
+  }
+}

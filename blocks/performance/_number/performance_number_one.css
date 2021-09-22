@@ -1,0 +1,6 @@
+@media (min-width: 1024px) {
+  .performance_number_one {
+    grid-template-columns: 720px 720px;
+    justify-content: center;
+  }
+}

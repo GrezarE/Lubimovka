@@ -1,0 +1,8 @@
+@media(min-width: 1024px) {
+  .header_1 {
+    width: 450px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    padding-left: 210px;
+  }
+}
