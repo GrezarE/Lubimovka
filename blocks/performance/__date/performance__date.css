@@ -1,0 +1,14 @@
+.performance__date {
+  font-family: 'Formular';
+  margin: 0;
+  padding-bottom: 8px;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: -0.01em;
+}
+
+@media (min-width: 1080px) {
+  .performance__date {
+    padding-bottom: 0;
+  }
+}

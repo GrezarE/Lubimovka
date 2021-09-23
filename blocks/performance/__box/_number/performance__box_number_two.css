@@ -1,0 +1,5 @@
+@media (min-width: 1080px) {
+  .performance__box_number_two::before {
+    left: 60px;
+  }
+}
