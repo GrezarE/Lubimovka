@@ -1,3 +1,13 @@
 .performance__text-box {
-  
+  display: grid;
+  grid-template-columns: 107px 1fr;
+  column-gap: 46px;
+  row-gap: 8px;
+}
+
+@media (min-width: 1080px) {
+  .performance__text-box {
+    row-gap: 0;
+    grid-template-rows: 32px 54px 64px 50px;
+  }
 }

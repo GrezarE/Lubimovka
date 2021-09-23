@@ -1,18 +1,22 @@
 .performance {
   padding-top: 100px;
+  margin: 0 auto;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1080px) {
   .performance {
-    /* overflow-y: hidden; */
-    /* overflow-x: auto; */
-    /* 3+ */
+    /* overflow-y: hidden;
+    overflow-x: auto; */
     display: grid;
-    grid-template-columns: 480px 480px 480px;
-    /* 2 */
-    /* grid-template-columns: 540px 540px;
-    justify-content: center; */
-    /* 1 */
-    /* grid-template-columns: 720px 720px; */
+    grid-template-columns: repeat(auto-fill, 480px);
+    justify-items: center;
+    justify-content: center;
+
+  }
+}
+
+@media (min-width: 1440px) {
+  .performance {
+    justify-items: unset;
   }
 }

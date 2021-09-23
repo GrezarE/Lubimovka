@@ -5,7 +5,7 @@
   grid-column-end: 3;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1080px) {
   .perfomance__button-box {
     gap: 16px;
     flex-direction: column;

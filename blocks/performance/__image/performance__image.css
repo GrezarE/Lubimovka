@@ -3,7 +3,7 @@
   width: 92px;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1080px) {
   .performance__image {
     height: 161px;
     width: 120px;

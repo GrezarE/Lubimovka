@@ -6,13 +6,16 @@
 @import url(../blocks/performance/__box/performance__box.css);
 @import url(../blocks/performance/__image/performance__image.css);
 @import url(../blocks/performance/__text-box/performance__text-box.css);
-@import url(../blocks/text-box/text-box.css);
+@import url(../blocks/performance/__author/performance__author.css);
+@import url(../blocks/performance/__date/performance__date.css);
+@import url(../blocks/performance/__name/performance__name.css);
+@import url(../blocks/performance/__note/performance__note.css);
+@import url(../blocks/performance/__time/performance__time.css);
 @import url(../blocks/performance/__button-box/performance__button-box.css);
 @import url(../blocks/performance/__button/performance__button.css);
-
-@import url(../blocks/performance/_number/box_1.css);
-@import url(../blocks/performance/_number/box_2.css);
-@import url(../blocks/performance/_number/header_2.css);
-@import url(../blocks/performance/_number/header_1.css);
+@import url(../blocks/performance/__header/_number/performance__header_number_one.css);
+@import url(../blocks/performance/__header/_number/performance__header_number_two.css);
+@import url(../blocks/performance/__box/_number/performance__box_number_one.css);
+@import url(../blocks/performance/__box/_number/performance__box_number_two.css);
 @import url(../blocks/performance/_number/performance_number_one.css);
 @import url(../blocks/performance/_number/performance_number_two.css);

@@ -7,29 +7,21 @@ console.log(boxPerformanceNumber)
 function changePerformanceBlock() {
   performanceBlock.classList.remove('performance_number_one');
   performanceBlock.classList.remove('performance_number_two');
-  headerPerformance.classList.remove('header_2');
-  headerPerformance.classList.remove('header_1');
-  boxPerformance.classList.remove('box_2');
-  boxPerformance.classList.remove('box_1');
+  headerPerformance.classList.remove('performance__header_number_two');
+  headerPerformance.classList.remove('performance__header_number_one');
+  boxPerformance.classList.remove('performance__box_number_two');
+  boxPerformance.classList.remove('performance__box_number_one');
 
   if (boxPerformanceNumber === 2) {
-    headerPerformance.classList.add('header_2');
-    boxPerformance.classList.add('box_2');
+    headerPerformance.classList.add('performance__header_number_two');
+    boxPerformance.classList.add('performance__box_number_two');
     performanceBlock.classList.add('performance_number_two');
   } else
     if (boxPerformanceNumber === 1) {
-      headerPerformance.classList.add('header_1');
-      boxPerformance.classList.add('box_1');
+      headerPerformance.classList.add('performance__header_number_one');
+      boxPerformance.classList.add('performance__box_number_one');
       performanceBlock.classList.add('performance_number_one');
     }
-  // if (boxPerformanceNumber >= 3) {
-  //   performanceBlock.classList.remove('performance_number_one');
-  //   performanceBlock.classList.remove('performance_number_two');
-  //   headerPerformance.classList.remove('header_2');
-  //   headerPerformance.classList.remove('header_1');
-  //   boxPerformance.classList.remove('box_2');
-  //   boxPerformance.classList.remove('box_1');
-  // }
-
 }
+
 changePerformanceBlock()

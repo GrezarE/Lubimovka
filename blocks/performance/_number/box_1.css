@@ -1,8 +1,0 @@
-@media (min-width: 1024px) {
-  .box_1::before {
-    border-right: unset
-  }
-  .box_1 {
-    margin: 0;
-  }
-}

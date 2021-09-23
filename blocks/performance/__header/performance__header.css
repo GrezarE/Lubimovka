@@ -8,16 +8,13 @@
   letter-spacing: -0.01em;
 }
 
-/* 3+ */
-
-@media(min-width: 1024px) {
+@media(min-width: 1080px) {
   .performance__header {
     font-size: 40px;
     line-height: 40px;
     width: 568px;
     padding-bottom: 75px;
     margin: 0;
-    padding-left: 362px;
     grid-column-start: 1;
     grid-column-end: -1;
     /* 2 */
@@ -27,5 +24,11 @@
     grid-column-start: 1;
     grid-column-end: 2;
     padding-left: 210px; */
+  }
+}
+
+@media (min-width: 1440px) {
+  .performance__header {
+    padding-left: 362px;
   }
 }
