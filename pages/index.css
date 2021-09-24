@@ -1,7 +1,8 @@
 @import url(../vendor/normalize.css);
-@import url(../vendor/fonts.css);
+@import url(../vendor/fonts/fonts.css);
 @import url(../blocks/body/body.css);
 @import url(../blocks/page/page.css);
+@import url(../blocks/page/__section/page__section.css);
 @import url(../blocks/performance/performance.css);
 @import url(../blocks/performance/__header/performance__header.css);
 @import url(../blocks/performance/__box/performance__box.css);
@@ -24,3 +25,15 @@
 @import url(../blocks/youtube-link/__button/youtube-link__button.css);
 @import url(../blocks/youtube-link/__header/youtube-link__header.css);
 @import url(../blocks/youtube-link/__text/youtube-link__text.css);
+@import url(../blocks/plays/plays.css);
+@import url(../blocks/section-title/section-title.css);
+@import url(../blocks/play/play.css);
+@import url(../blocks/play/__cover/play__cover.css);
+@import url(../blocks/play/__title/play__title.css);
+@import url(../blocks/button/button.css);
+@import url(../blocks/button-view/button-view.css);
+@import url(../blocks/button-view/__link/button-view__link.css);
+@import url(../blocks/button-download/button-download.css);
+@import url(../blocks/play/__info/play__info.css);
+@import url(../blocks/play/__author/play__author.css);
+@import url(../blocks/play/__performance/play__performance.css);
