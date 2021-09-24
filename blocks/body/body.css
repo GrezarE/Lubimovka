@@ -1,8 +1,4 @@
 .body {
-  min-width: 414px;
-  max-width: 1440px;
   background-color: #ecebe8;
-  overflow-x: hidden;
-  margin: 0 auto;
 }
 

@@ -9,17 +9,17 @@
   grid-template-columns: 92px 1fr;
   column-gap: 29px;
   row-gap: 40px;
+
 }
 
 .performance__box::before {
   content: "";
   position: absolute;
   top: 0;
-  left: -10%;
+  left: -25px;
   height: 100%;
-  width: 120%;
+  width: 414px;
   border-bottom: 1px #242424 solid;
-  overflow: hidden;
 }
 
 @media (min-width: 1080px) {
