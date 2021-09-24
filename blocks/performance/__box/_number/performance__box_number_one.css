@@ -1,0 +1,8 @@
+@media (min-width: 1080px) {
+  .performance__box_number_one::before {
+    border-right: 2px;
+  }
+  .performance__box_number_one {
+    margin: 0;
+  }
+}

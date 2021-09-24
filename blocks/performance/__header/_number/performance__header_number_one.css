@@ -1,0 +1,9 @@
+@media(min-width: 1080px) {
+  .performance__header_number_one {
+    width: 450px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    padding: 0;
+    /* padding-left: 210px; */
+  }
+}
