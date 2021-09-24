@@ -6,7 +6,7 @@
   letter-spacing: -.01em;
   font-feature-settings: 'ss01' on;
   margin: 0;
-  padding-left: 60px;
+  padding-left: calc((100% - 509px)*.45);
   padding-bottom: 120px;
   max-width: 509px;
 }

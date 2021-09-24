@@ -1,6 +1,7 @@
 .o-proekte {
+  
   background-color: #B7C09D;
-  padding-left: calc((100vw - 720px)/2);
+  /* padding-left: calc((100vw - 720px)/2); */
 }
 
 @media (max-width: 764px) {
