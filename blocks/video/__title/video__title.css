@@ -1,0 +1,23 @@
+.video__title {
+  font-family: 'NeueMachina', Arial, sans-serif;
+  font-size: 40px;
+  line-height: 100%;
+  font-weight: normal;
+  letter-spacing: -.01em;
+  margin-top: 0;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 98px;
+  text-align: left;
+}
+
+@media (max-width: 764px) {
+  .video__title {
+    font-size: 28px;
+    line-height: 114%;
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-bottom: 32px;
+    padding-top: 57px;
+  }
+}
