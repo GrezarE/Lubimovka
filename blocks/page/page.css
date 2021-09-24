@@ -1,0 +1,13 @@
+.page {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #E5E5E5;;
+    min-width: 320px;
+    width: 100%;
+ }
