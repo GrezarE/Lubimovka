@@ -1,0 +1,16 @@
+.youtube-link__text {
+  margin: 0;
+  padding-left: 15%;
+  width: 303px;
+  font-family: 'Formular';
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: -0.01em;
+}
+
+@media (min-width: 1080px) {
+  .youtube-link__text {
+    width: 410px;
+    padding: 0;
+  }
+}

@@ -1,0 +1,28 @@
+.youtube-link {
+  background-color: #b7c09d;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  padding-top: 56px;
+  padding-bottom: 72px;
+}
+
+@media (min-width: 1080px) {
+  .youtube-link {
+    padding-top: 71px;
+    padding-bottom: 141px;
+    display: grid;
+    grid-template-columns: 410px 1fr;
+    row-gap: 20px;
+    column-gap: 101px;
+    padding-left: 12.5%;
+    align-items: unset;
+  }
+}
+
+@media (min-width: 1280px) {
+  .youtube-link {
+    padding-left: 25%;
+  }
+}
