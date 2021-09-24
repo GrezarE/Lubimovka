@@ -1,0 +1,15 @@
+.page {
+  min-width: 414px;
+  max-width: 1440px;
+  background-color: #E5E5E5;
+  font-family: 'NeueMachina', 'Formular', Arial, sans-serif;
+  color: #242424;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+.page__section {
+  margin: 0 auto;
+}
+
