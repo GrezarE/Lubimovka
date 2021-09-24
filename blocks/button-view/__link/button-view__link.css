@@ -1,0 +1,7 @@
+.button-view__link {
+  text-decoration: none;
+}
+
+.button-view__link:visited {
+  color: #242424;
+}

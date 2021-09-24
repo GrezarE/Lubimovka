@@ -1,0 +1,12 @@
+.play__title {
+  height: 228px;
+  margin: 0;
+  padding: 16px 40px 0 16px;
+  font-family: 'Neue Machina', 'Arial', sans-serif;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+  color: #242424;
+  position: relative;
+  z-index: 3;
+}
