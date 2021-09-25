@@ -1,4 +1,5 @@
 .play__cover {
+  position: relative;
   margin: 0;
   padding: 0;
   width: 244px;
@@ -7,20 +8,16 @@
   flex-direction: column;
   background-color: #B7C09D;
   cursor: pointer;
-}
-
-
-.play__cover::before {
-  position: absolute;
-  background: #B7C09D;
-  width: 244px;
-  height: 340px;
   z-index: 2;
-  content: "";
-  opacity: 1;
-  transition: opacity 1s ease;
 }
 
-.play__cover:hover::before {
-  opacity: 0;
+@media (min-width: 800px) {
+  .play__cover {
+    width: 240px;
+    height: 300px;
+  }
+  .play__cover::before {
+    width: 240px;
+    height: 300px;
+  }
 }

@@ -1,0 +1,11 @@
+.video__iframes_number_three {
+  max-width: 1378px;
+  margin: 0 auto;
+  grid-template-columns: repeat(3, 420px);
+}
+
+@media (max-width: 764px) {
+  .video__iframes_number_three {
+    grid-template-columns: repeat(3, 299px);
+  }
+}

@@ -16,9 +16,22 @@
     border-bottom-width: 1px;
     border-left-width: 0;
     border-color:#242424;
-  cursor: pointer;
 }
 
 .button:last-of-type {
   border-top-width: 0;
 }
+
+@media (min-width: 800px) {
+  .button {
+    cursor: pointer;
+    width: 240px;
+  }
+
+  .button:hover {
+    color: white;
+    background-color: black;
+  }
+}
+
+
