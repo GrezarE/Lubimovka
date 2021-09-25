@@ -7,8 +7,13 @@
   flex-direction: column;
   background-color: #B7C09D;
   cursor: pointer;
+  z-index: 2;
 }
 
+/*.play__cover:hover {
+  opacity: 1;
+  transition: opacity 1s ease;
+}
 
 .play__cover::before {
   position: absolute;
@@ -23,7 +28,7 @@
 
 .play__cover:hover::before {
   opacity: 0;
-}
+}*/
 
 @media (min-width: 1080px) {
   .play__cover {
