@@ -1,0 +1,22 @@
+.play__buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  width: 244px;
+  height: 340px;
+  z-index: 3;
+}
+
+
+@media (min-width: 800px) {
+  .play__buttons {
+    position: absolute;
+    content: "";
+    opacity: 0;
+    transition: opacity 1s ease;
+  }
+
+  .play__buttons:hover {
+    opacity: 1;
+  }
+}
