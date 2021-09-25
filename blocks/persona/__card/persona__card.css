@@ -1,0 +1,10 @@
+.persona__card {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+@media screen and (max-width: 768px) {
+  .persona__card {
+    scroll-snap-align: center;
+  }
+}

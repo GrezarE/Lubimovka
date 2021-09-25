@@ -44,6 +44,17 @@
 @import url(../blocks/performance/__box/_number/performance__box_number_two.css);
 @import url(../blocks/performance/_number/performance_number_one.css);
 @import url(../blocks/performance/_number/performance_number_two.css);
+
+@import url(../blocks/page/__persona/page__persona.css);
+@import url(../blocks/persona/persona.css);
+@import url(../blocks/persona/__card/persona__card.css);
+@import url(../blocks/persona/__img/persona__img.css);
+@import url(../blocks/persona/__list/persona__list.css);
+@import url(../blocks/persona/__name/persona__name.css);
+@import url(../blocks/persona/__profession/persona__profession.css);
+@import url(../blocks/persona/__title/persona__title.css);
+
+
 @import url(../blocks/youtube-link/youtube-link.css);
 @import url(../blocks/youtube-link/__button/youtube-link__button.css);
 @import url(../blocks/youtube-link/__header/youtube-link__header.css);
