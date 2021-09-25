@@ -20,6 +20,11 @@
   background-image: url(../../../images/star.svg);
 }
 
+@media (min-width: 500px) {
+  .cooperation__header {
+    margin-left: calc((100% - 333px)/2);
+  }
+}
 
 @media (min-width: 1080px) {
   .cooperation__header {
