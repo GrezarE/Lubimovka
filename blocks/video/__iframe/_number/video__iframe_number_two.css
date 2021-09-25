@@ -1,0 +1,11 @@
+.video__iframe_number_two {
+  width: 420px;
+  height: 236px;
+}
+
+@media (max-width: 764px) {
+  .video__iframe_number_two {
+    width: 299px;
+    height: 168px;
+  }
+}

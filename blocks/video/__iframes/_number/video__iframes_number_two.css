@@ -1,0 +1,10 @@
+.video__iframes_number_two {
+  max-width: 899px;
+  grid-template-columns: repeat(2, 420px);
+}
+
+@media (max-width: 764px) {
+  .video__iframes_number_two {
+    grid-template-columns: repeat(2, 299px);
+  }
+}

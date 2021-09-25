@@ -1,0 +1,13 @@
+.video__title_number_three {
+  max-width: 568px;
+  margin-bottom: 45px;
+  padding-right: 148px;
+}
+
+@media (max-width: 764px) {
+  .video__title_number_three {
+    max-width: 369px;
+    margin-right: 21px;
+    padding-right: 0;
+  }
+}

@@ -1,0 +1,11 @@
+.subtitle__image {
+  width: 50%;
+  object-fit: cover;
+
+}
+
+@media (max-width: 900px) {
+  .subtitle__image{
+    width: 100%;
+  }
+}
