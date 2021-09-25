@@ -10,7 +10,9 @@
   cursor: pointer;
 }
 
-.play__author:hover {
-  background-color: #242424;
-  color: white;
+@media (min-width: 800px) {
+  .play__author:hover {
+    background-color: #242424;
+    color: white;
+  }
 }

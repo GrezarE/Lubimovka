@@ -6,13 +6,11 @@
   color: #242424;
 }
 
-.button__link:hover {
-  color: white;
+@media (min-width: 800px) {
+  .button__link:hover {
+   color: white;
+  }
 }
-
-/*.button__link:visited {
-  color: #242424;
-}*/
 
 
 

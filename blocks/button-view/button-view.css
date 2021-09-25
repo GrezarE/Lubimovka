@@ -5,6 +5,8 @@
   background-size: 24px;;
 }
 
-.button-view:hover {
-  background-image: url(../../images/button-view-white.svg);
+@media (min-width: 800px) {
+  .button-view:hover {
+    background-image: url(../../images/button-view-white.svg);
+  }
 }

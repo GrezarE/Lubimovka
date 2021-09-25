@@ -5,6 +5,8 @@
   background-size: 24px;
 }
 
-.button-download:hover {
-  background-image: url(../../images/button-download-white.svg);
+@media (min-width: 800px) {
+  .button-download:hover {
+    background-image: url(../../images/button-download-white.svg);
+  }
 }
