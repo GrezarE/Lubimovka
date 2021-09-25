@@ -1,15 +1,14 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts/fonts.css);
+@import url(../blocks/body/body.css);
 @import url(../blocks/page/page.css);
-
+@import url(../blocks/page/__section/page__section.css);
 @import url(../blocks/title/title.css);
 @import url(../blocks/title/__button/title__button.css);
 @import url(../blocks/title/__title/title__title.css);
-
 @import url(../blocks/subtitle/subtitle.css);
 @import url(../blocks/subtitle/__text/subtitle__text.css);
 @import url(../blocks/subtitle/__image/subtitle__image.css);
-
 @import url(../blocks/o-proekte/o-proekte.css);
 @import url(../blocks/o-proekte/__title/o-proekte__title.css);
 @import url(../blocks/o-proekte/__text/o-proekte__text.css);
@@ -27,3 +26,37 @@
 @import url(../blocks/video/__iframe/_number/video__iframe_number_two.css);
 @import url(../blocks/video/__iframe/_number/video__iframe_number_three.css);
 @import url(../blocks/video/__text/video__text.css);
+@import url(../blocks/performance/performance.css);
+@import url(../blocks/performance/__header/performance__header.css);
+@import url(../blocks/performance/__box/performance__box.css);
+@import url(../blocks/performance/__image/performance__image.css);
+@import url(../blocks/performance/__text-box/performance__text-box.css);
+@import url(../blocks/performance/__author/performance__author.css);
+@import url(../blocks/performance/__date/performance__date.css);
+@import url(../blocks/performance/__name/performance__name.css);
+@import url(../blocks/performance/__note/performance__note.css);
+@import url(../blocks/performance/__time/performance__time.css);
+@import url(../blocks/performance/__button-box/performance__button-box.css);
+@import url(../blocks/performance/__button/performance__button.css);
+@import url(../blocks/performance/__header/_number/performance__header_number_one.css);
+@import url(../blocks/performance/__header/_number/performance__header_number_two.css);
+@import url(../blocks/performance/__box/_number/performance__box_number_one.css);
+@import url(../blocks/performance/__box/_number/performance__box_number_two.css);
+@import url(../blocks/performance/_number/performance_number_one.css);
+@import url(../blocks/performance/_number/performance_number_two.css);
+@import url(../blocks/youtube-link/youtube-link.css);
+@import url(../blocks/youtube-link/__button/youtube-link__button.css);
+@import url(../blocks/youtube-link/__header/youtube-link__header.css);
+@import url(../blocks/youtube-link/__text/youtube-link__text.css);
+@import url(../blocks/plays/plays.css);
+@import url(../blocks/section-title/section-title.css);
+@import url(../blocks/play/play.css);
+@import url(../blocks/play/__cover/play__cover.css);
+@import url(../blocks/play/__title/play__title.css);
+@import url(../blocks/button/button.css);
+@import url(../blocks/button-view/button-view.css);
+@import url(../blocks/button-view/__link/button-view__link.css);
+@import url(../blocks/button-download/button-download.css);
+@import url(../blocks/play/__info/play__info.css);
+@import url(../blocks/play/__author/play__author.css);
+@import url(../blocks/play/__performance/play__performance.css);

@@ -1,0 +1,26 @@
+.play__cover {
+  margin: 0;
+  padding: 0;
+  width: 244px;
+  height: 340px;
+  display: flex;
+  flex-direction: column;
+  background-color: #B7C09D;
+  cursor: pointer;
+}
+
+
+.play__cover::before {
+  position: absolute;
+  background: #B7C09D;
+  width: 244px;
+  height: 340px;
+  z-index: 2;
+  content: "";
+  opacity: 1;
+  transition: opacity 1s ease;
+}
+
+.play__cover:hover::before {
+  opacity: 0;
+}

@@ -1,0 +1,9 @@
+.play {
+  margin: 0;
+  padding: 0;
+  width: 244px;
+  height: 440px;
+  display: flex;
+  flex-direction: column;
+  background-color: #ECEBE8;
+}
