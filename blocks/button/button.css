@@ -22,3 +22,9 @@
 .button:last-of-type {
   border-top-width: 0;
 }
+
+@media (min-width: 1080px) {
+  .button {
+    width: 240px;
+  }
+}

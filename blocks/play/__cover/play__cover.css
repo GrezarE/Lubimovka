@@ -24,3 +24,15 @@
 .play__cover:hover::before {
   opacity: 0;
 }
+
+@media (min-width: 1080px) {
+  .play__cover {
+    width: 240px;
+    height: 300px;
+  }
+
+  .play__cover::before {
+    width: 240px;
+    height: 300px;
+}
+}
