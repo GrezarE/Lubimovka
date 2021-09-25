@@ -62,3 +62,8 @@
 @import url(../blocks/play/__info/play__info.css);
 @import url(../blocks/play/__author/play__author.css);
 @import url(../blocks/play/__performance/play__performance.css);
+@import url(../blocks/cooperation/cooperation.css);
+@import url(../blocks/cooperation/__text/cooperation__text.css);
+@import url(../blocks/cooperation/__mail/cooperation__mail.css);
+@import url(../blocks/cooperation/__header/cooperation__header.css);
+
