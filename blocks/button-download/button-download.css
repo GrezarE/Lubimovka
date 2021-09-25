@@ -1,6 +1,10 @@
 .button-download {
-  background-image: url(../../images/button-download.png);
+  background-image: url(../../images/button-download.svg);
   background-repeat: no-repeat;
   background-position: 204px center;
   background-size: 24px;
+}
+
+.button-download:hover {
+  background-image: url(../../images/button-download-white.svg);
 }

@@ -1,6 +1,10 @@
 .button-view {
-  background-image: url(../../images/button-view.png);
+  background-image: url(../../images/button-view.svg);
   background-repeat: no-repeat;
   background-position: 204px center;
   background-size: 24px;;
+}
+
+.button-view:hover {
+  background-image: url(../../images/button-view-white.svg);
 }

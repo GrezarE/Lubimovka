@@ -1,11 +1,18 @@
 .button__link {
+  display: block;
+  width: 100%;
+  height: 100%;
   text-decoration: none;
   color: #242424;
 }
 
-.button__link:visited {
-  color: #242424;
+.button__link:hover {
+  color: white;
 }
+
+/*.button__link:visited {
+  color: #242424;
+}*/
 
 
 

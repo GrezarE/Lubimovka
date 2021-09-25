@@ -23,6 +23,11 @@
   border-top-width: 0;
 }
 
+.button:hover {
+  color: white;
+  background-color: black;
+}
+
 @media (min-width: 1080px) {
   .button {
     width: 240px;
