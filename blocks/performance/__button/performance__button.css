@@ -8,6 +8,7 @@
   border-bottom: 1px #242424 solid;
   width: 154px;
   height: 32px;
+  cursor: pointer;
   background-color: unset;
   background-image: url('../../../images/arrow-right.svg');
   background-repeat: no-repeat;

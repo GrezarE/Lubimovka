@@ -5,8 +5,7 @@
   height: 440px;
   display: flex;
   flex-direction: column;
-  background-color: #E5E5E5;
-
+  background-color: #ECEBE8;
 }
 
 .play:last-of-type {
