@@ -10,7 +10,7 @@
   color: #242424;
 }
 
-@media (min-width: 1080px) {
+@media (min-width: 800px) {
   .plays__title {
     padding-left: 200px;
     font-size: 32px;
