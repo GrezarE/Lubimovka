@@ -1,14 +1,15 @@
 .page {
-    margin: 0;
-    padding: 0;
-    min-width: 414px;
-    width: 100%;
-    position: relative;
-    -moz-osx-font-smoothing: grayscale;
-    -webkit-font-smoothing: antialiased;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background-color: #ECEBE8;
-    font-family: 'Neue Machina', 'Formular', Arial, sans-serif;
- }
+  margin: 0;
+  padding: 0;
+  min-width: 414px;
+  width: 100%;
+  max-width: 1440px;
+  position: relative;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #ECEBE8;
+  font-family: 'Neue Machina', 'Formular', Arial, sans-serif;
+}

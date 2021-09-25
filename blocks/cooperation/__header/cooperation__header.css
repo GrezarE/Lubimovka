@@ -1,0 +1,31 @@
+.cooperation__header {
+  margin: 0;
+  font-family: Neue Machina;
+  width: 335px;
+  font-size: 28px;
+  line-height: 32px;
+  font-weight: 400;
+  margin-left: 13.285%;
+  padding-bottom: 16px;
+  position: relative;
+}
+
+.cooperation__header::before {
+  content: '';
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  top: -26px;
+  left: -30px;
+  background-image: url(../../../images/star.svg);
+}
+
+
+@media (min-width: 1080px) {
+  .cooperation__header {
+    font-size: 36px;
+    line-height: 38px;
+    margin-left: 48%;
+    padding-bottom: 33px;
+  }
+}
