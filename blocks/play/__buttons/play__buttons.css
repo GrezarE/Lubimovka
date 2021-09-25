@@ -10,6 +10,8 @@
 
 @media (min-width: 800px) {
   .play__buttons {
+    width: 240px;
+    height: 300px;
     position: absolute;
     content: "";
     opacity: 0;
