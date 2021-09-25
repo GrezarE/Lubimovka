@@ -1,9 +1,21 @@
 .play {
-  margin: 0;
+  margin-right: 30px;
   padding: 0;
   width: 244px;
   height: 440px;
   display: flex;
   flex-direction: column;
   background-color: #E5E5E5;
+
+}
+
+.play:last-of-type {
+  margin-right: 0;
+}
+
+@media (min-width: 1440px) {
+  .play {
+    width: 240px;
+    height: 412px;
+  }
 }

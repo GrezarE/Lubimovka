@@ -1,0 +1,29 @@
+.plays__title {
+  margin: 0;
+  padding: 0;
+  width: 368px;
+  font-family: 'Neue Machina', 'Arial', sans-serif;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 32px;
+  letter-spacing: -0.01em;
+  color: #242424;
+}
+
+@media (min-width: 1080px) {
+  .plays__title {
+    padding-left: 200px;
+    font-size: 32px;
+    line-height: 36px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .plays__title {
+    padding-left: 302px;
+    width: 358px;
+    font-size: 40px;
+    line-height: 40px;
+  }
+}
+

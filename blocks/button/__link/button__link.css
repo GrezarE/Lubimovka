@@ -1,0 +1,11 @@
+.button__link {
+  text-decoration: none;
+  color: #242424;
+}
+
+.button__link:visited {
+  color: #242424;
+}
+
+
+
