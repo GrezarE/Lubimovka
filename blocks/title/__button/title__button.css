@@ -1,0 +1,56 @@
+.title__button {
+  margin: 33px auto auto 30px;
+  width: 120px;
+  height: 31px;
+  border-top: 0;
+  border-left: 0;
+  border-right: 1px #242424 solid;
+  border-bottom: 1px #242424 solid;
+  padding: 0 29px 0 0;
+  background-image: url("../../../images/arrow-left.svg");
+  background-repeat: no-repeat;
+  background-position: right center;
+  font-family: "Formular";
+  font-size: 16px;
+  line-height: 87%;
+  text-align: right;
+  background-color: unset;
+  position: relative;
+  transition: all 0.4s ease-in-out;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.title__button::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 31px;
+  background-color: #242424;
+  transition: all 0.4s ease-in-out;
+  background-image: url("../../../images/arrow-left-white.svg");
+  background-repeat: no-repeat;
+  background-position: right center;
+  z-index: -1;
+}
+
+.title__button:hover::before {
+  width: 100%;
+}
+
+.title__button:hover {
+  color: #fff;
+}
+
+.title__button:active {
+  transform: scale(1.1);
+}
+
+@media (max-width: 764px) {
+  .title__button {
+    width: 115px;
+    margin-left: 86px;
+  }
+}

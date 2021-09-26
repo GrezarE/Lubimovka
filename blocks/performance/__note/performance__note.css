@@ -1,0 +1,9 @@
+.performance__note {
+  width: 150px;
+  font-family: 'Formular';
+  margin: 0;
+  font-size: 14px;
+  line-height: 17px;
+  grid-column-start: 1;
+  grid-column-end: 3;
+}

@@ -1,0 +1,20 @@
+.subtitle__text{
+  font-family: 'Neue Machina', Arial, sans-serif;
+  font-size: 28px;
+  line-height: 114%;
+  font-weight: normal;
+  letter-spacing: -.01em;
+  margin: 0;
+  padding-left: calc((50% - 420px)*.6);
+  padding-right: calc((50% - 420px)*.4);;
+  max-width: 420px;
+}
+
+@media (max-width: 900px) {
+  .subtitle__text{
+    font-size: 20px;
+    line-height: 120%;
+    padding-left: 86px;
+    padding-right: 24px;
+  }
+}
