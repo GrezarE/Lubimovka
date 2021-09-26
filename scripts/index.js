@@ -58,3 +58,21 @@ function changVideoBlock() {
 
 changVideoBlock();
 
+// закрытие поп-апа
+function closePopup(popup) {
+  popup.classList.remove('popup_condition_opened');
+}
+// открытие поп-апа
+function openPopup(popup) {
+  popup.classList.add('popup_condition_opened');
+}
+let popupElement = document.querySelector('.popup');
+let popupPhoto = popupElement.querySelector('.popup__photo');
+// событие закрытия поп-апа
+document.querySelector('.popup_position_top-right').addEventListener('click', function () {closePopup(popupElement)})
+// событие при нажатии на картинку
+document.querySelectorAll('.photo-grid__image').forEach(imageElement =>
+  imageElement.addEventListener('click', function () {
+    popupPhoto.src = imageElement.src;
+    openPopup(popupElement);
+  }))
