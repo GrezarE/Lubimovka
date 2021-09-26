@@ -1,0 +1,6 @@
+.popup_position_right {
+    top: calc(50% - 33px);
+    right: -98px;
+    width: 66px;
+    height: 66px;
+}

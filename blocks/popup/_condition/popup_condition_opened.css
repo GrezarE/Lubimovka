@@ -1,0 +1,6 @@
+@media screen and (min-width: 768px)  {
+    .popup_condition_opened {
+        opacity: 1;
+        visibility: visible;
+    }
+}

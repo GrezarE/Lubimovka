@@ -1,0 +1,17 @@
+.photo-grid {
+    margin: 42px auto 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2px 3px;
+    padding: 0;
+    list-style-type: none;
+    align-content: center;
+    width: 100%;
+}
+
+@media screen and (min-width: 768px)  {
+    .photo-grid {
+        grid-template-columns: 1fr 1fr 1fr 1fr; 
+        gap: 1px 1px;
+    }    
+}
