@@ -1,7 +1,7 @@
 const performanceBlock = document.querySelector('.performance');
 const headerPerformance = document.querySelector('.performance__header');
 const boxPerformance = document.querySelector('.performance__box');
-let boxPerformanceNumber = document.querySelectorAll('.performance__box').length
+const boxPerformanceNumber = document.querySelectorAll('.performance__box').length;
 //находим элемент body
 const bodyElement = document.querySelector('.page');
 //находим заголовок
@@ -10,7 +10,9 @@ const titleVideoElement = bodyElement.querySelector('.video__title ');
 const videoContainer = bodyElement.querySelector('.video__iframes');
 //находим блок с видео
 const videoElements = bodyElement.querySelectorAll('.video__iframe');
+
 console.log(boxPerformanceNumber)
+
 
 // function changePerformanceBlock() {
 //   performanceBlock.classList.remove('performance_number_one');
