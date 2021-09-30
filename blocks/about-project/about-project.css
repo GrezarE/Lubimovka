@@ -1,10 +1,10 @@
-.o-proekte {
+.about-project {
   width: 100%;
   background-color: #B7C09D;
 }
 
 @media (max-width: 764px) {
-  .o-proekte {
+  .about-project {
     padding-left: 0;
   }
 }

@@ -10,7 +10,7 @@
   max-width: 420px;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1000px) {
   .subtitle__text{
     font-size: 20px;
     line-height: 120%;

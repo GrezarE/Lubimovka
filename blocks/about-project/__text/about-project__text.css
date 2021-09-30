@@ -1,4 +1,4 @@
-.o-proekte__text{
+.about-project__text{
   font-family: 'Formular', Arial, sans-serif;
   font-size: 20px;
   line-height: 140%;
@@ -12,7 +12,7 @@
 }
 
 @media (max-width: 764px) {
-  .o-proekte__text{
+  .about-project__text{
     margin-right: 24px;
     margin-left: 85px;
     padding-bottom: 72px;
