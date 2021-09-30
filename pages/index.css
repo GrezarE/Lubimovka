@@ -10,9 +10,9 @@
 @import url(../blocks/subtitle/subtitle.css);
 @import url(../blocks/subtitle/__text/subtitle__text.css);
 @import url(../blocks/subtitle/__image/subtitle__image.css);
-@import url(../blocks/o-proekte/o-proekte.css);
-@import url(../blocks/o-proekte/__title/o-proekte__title.css);
-@import url(../blocks/o-proekte/__text/o-proekte__text.css);
+@import url(../blocks/about-project/about-project.css);
+@import url(../blocks/about-project/__title/about-project__title.css);
+@import url(../blocks/about-project/__text/about-project__text.css);
 @import url(../blocks/video/video.css);
 @import url(../blocks/video/__title/video__title.css);
 @import url(../blocks/video/__title/_number/video__title_number_one.css);
