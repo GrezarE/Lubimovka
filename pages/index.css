@@ -68,6 +68,7 @@
 @import url(../blocks/persona/__name/persona__name.css);
 @import url(../blocks/persona/__profession/persona__profession.css);
 @import url(../blocks/persona/__title/persona__title.css);
+@import url(../blocks/persona/__figure/persona__figure.css);
 
 
 @import url(../blocks/youtube-link/youtube-link.css);
