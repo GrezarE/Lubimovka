@@ -6,12 +6,11 @@
   letter-spacing: -.01em;
   font-feature-settings: 'ss01' on;
   margin: 55px auto 0;
-  padding-bottom: 98px;
   max-width: 716px;
 }
 
 @media (max-width: 764px) {
   .video__text{
-    margin: 32px 24px 100px;
+    margin: 32px 24px 0;
   }
 }

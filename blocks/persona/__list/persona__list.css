@@ -16,6 +16,6 @@
     overflow-x: auto;
     scroll-snap-type: x mandatory;
     justify-content: start;
-    box-sizing:border-box;
+    box-sizing: border-box;
   }
 }

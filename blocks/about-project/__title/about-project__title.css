@@ -1,4 +1,4 @@
-.o-proekte__title {
+.about-project__title {
   font-family: 'Neue Machina', Arial, sans-serif;
   font-size: 40px;
   line-height: 100%;
@@ -6,7 +6,6 @@
   letter-spacing: -.01em;
   margin: 0;
   padding-left: calc((100% - 509px)*.45 - 60px);
-
   padding-top: 79px;
   padding-bottom: 17px;
   text-align: left;
@@ -14,7 +13,7 @@
 }
 
 @media (max-width: 764px) {
-  .o-proekte__title {
+  .about-project__title {
     margin-right: 67px;
     margin-left: 24px;
     padding-top: 56px;
