@@ -1,6 +1,7 @@
 .button {
   margin: 0;
-  padding: 16px;
+  padding: 0;
+  box-sizing: border-box;
   width: 244px;
   height: 56px;
   background-color: #B7C09D;
