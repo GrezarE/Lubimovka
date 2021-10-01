@@ -1,6 +1,7 @@
 .button {
   margin: 0;
-  padding: 16px;
+  padding: 0;
+  box-sizing: border-box;
   width: 244px;
   height: 56px;
   background-color: #B7C09D;
@@ -10,6 +11,7 @@
   line-height: 22px;
   color: #242424;
   text-align: left;
+  border: solid;
   border-width: 1px;
     border-top-width: 1px;
     border-right-width: 0;

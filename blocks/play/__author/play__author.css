@@ -8,6 +8,7 @@
   letter-spacing: -0.01em;
   color: #242424;
   cursor: pointer;
+  text-decoration: none;
 }
 
 @media (min-width: 800px) {
