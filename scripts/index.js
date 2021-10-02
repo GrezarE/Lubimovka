@@ -71,7 +71,7 @@ function openPopup(popup) {
 let popupElement = document.querySelector('.popup');
 let popupPhoto = popupElement.querySelector('.popup__photo');
 // событие закрытия поп-апа
-document.querySelector('.popup_position_top-right').addEventListener('click', function () {closePopup(popupElement)})
+document.querySelector('.popup__button_position_top-right').addEventListener('click', function () {closePopup(popupElement)})
 // событие при нажатии на картинку
 document.querySelectorAll('.photo-grid__image').forEach(imageElement =>
   imageElement.addEventListener('click', function () {
