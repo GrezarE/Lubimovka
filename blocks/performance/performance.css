@@ -1,6 +1,6 @@
 .performance {
   padding-top: 100px;
-  padding-bottom: 100px;
+  padding-bottom: 52px;
 }
 
 @media (min-width: 1080px) {
@@ -9,7 +9,8 @@
     grid-template-columns: repeat(auto-fill, 480px);
     justify-items: center;
     justify-content: center;
-
+    padding-top: 122px;
+    padding-bottom: 0;
   }
 }
 

@@ -1,7 +1,12 @@
+.performance_number_two {
+  padding-top: 48px;
+}
+
 @media (min-width: 1080px) {
   .performance_number_two {
     grid-template-columns: 540px 540px;
     justify-content: center;
     justify-items: unset;
+    padding-top: 129px;
   }
 }
