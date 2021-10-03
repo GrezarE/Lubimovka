@@ -1,0 +1,26 @@
+.youtube-link__header {
+  margin: 0;
+  max-width: 468px;
+  padding-left: 6%;
+  font-family: 'Neue Machina', Arial, sans-serif;;
+  font-size: 28px;
+  line-height: 32px;
+  font-weight: 400;
+  letter-spacing: -0.01em;
+}
+
+@media (min-width: 450px) {
+  .youtube-link__header {
+    padding-left: 14%;
+  }
+}
+
+@media (min-width: 1080px) {
+  .youtube-link__header {
+    font-size: 40px;
+    line-height: 40px;
+    padding: 0;
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+}

@@ -1,0 +1,14 @@
+.performance_number_one {
+  padding-top: 48px;
+}
+
+@media (min-width: 1080px) {
+  .performance_number_one {
+    grid-template-columns: repeat(2, minmax(420px, 450px));
+    gap: 60px;
+    justify-content: center;
+    justify-items: unset;
+    padding-top: 183px;
+    padding-bottom: 45px;
+    }
+}

@@ -1,0 +1,12 @@
+.video__title_number_one {
+  max-width: 589px;
+  margin-bottom: 37px;
+  padding-right: 127px;
+}
+
+@media (max-width: 764px) {
+  .video__title_number_one {
+    padding-right: 0;
+    margin-bottom: 32px;
+  }
+}

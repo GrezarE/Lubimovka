@@ -1,0 +1,12 @@
+.video__iframes {
+  display: grid;
+  gap: 59px;
+  overflow-x: auto;
+  margin: 0 auto;
+}
+
+@media (max-width: 764px) {
+  .video__iframes {
+    gap: 30px;
+  }
+}

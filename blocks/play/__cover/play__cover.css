@@ -1,0 +1,23 @@
+.play__cover {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  width: 244px;
+  height: 340px;
+  display: flex;
+  flex-direction: column;
+  background-color: #B7C09D;
+  cursor: pointer;
+  z-index: 2;
+}
+
+@media (min-width: 800px) {
+  .play__cover {
+    width: 240px;
+    height: 300px;
+  }
+  .play__cover::before {
+    width: 240px;
+    height: 300px;
+  }
+}

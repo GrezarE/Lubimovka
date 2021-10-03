@@ -1,0 +1,19 @@
+.plays {
+  padding: 48px 24px;
+  display: flex;
+  flex-direction: column;
+  min-width: 414px;
+  width: 100%;
+}
+
+@media (min-width: 1080px) {
+  .plays {
+    padding: 48px 40px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .plays {
+    padding: 48px 60px;
+  }
+}

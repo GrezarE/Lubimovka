@@ -1,0 +1,23 @@
+.cooperation__text {
+  margin: 0;
+  font-family: 'Neue Machina', Arial, sans-serif;;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: -0.01em;
+  max-width: 333px;
+  padding-left: 55px;
+  padding-bottom: 24px;
+}
+
+@media (min-width: 500px) {
+  .cooperation__text {
+    padding-left: calc((100% - 333px)/2);
+  }
+}
+
+@media (min-width: 1080px) {
+  .cooperation__text {
+    max-width: 468px;
+    padding-left: 52%;
+  }
+}

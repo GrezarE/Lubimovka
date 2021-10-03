@@ -1,0 +1,24 @@
+.title__title {
+  max-width: 450px;
+  margin: 59px calc(50% - 450px) 65px 0;
+  font-family: 'Neue Machina', Arial, sans-serif;
+  font-size: 72px;
+  line-height: 97%;
+  font-weight: normal;
+  letter-spacing: -.01em;
+  overflow-wrap: break-word;
+}
+
+@media (max-width: 1000px) {
+  .title__title {
+    font-size: 40px;
+    line-height: 100%;
+  }
+}
+
+@media (max-width: 764px) {
+  .title__title {
+    margin: 58px auto 22px 24px;
+    max-width: 323px;
+  }
+}

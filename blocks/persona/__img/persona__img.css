@@ -1,0 +1,10 @@
+.persona__img{
+  transition: transform .4s;
+  transition-timing-function: cubic-bezier(.6, 0, 0.5, 1);
+}
+
+@media screen and (max-width: 768px) {
+  .persona__img {
+    filter: grayscale(100%);
+  }
+}

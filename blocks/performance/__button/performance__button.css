@@ -1,0 +1,50 @@
+.performance__button {
+  position: relative;
+  padding: 0;
+  padding-left: 29px;
+  border-top: 0;
+  border-right: 0;
+  border-left: 1px #242424 solid;
+  border-bottom: 1px #242424 solid;
+  width: 154px;
+  height: 32px;
+  cursor: pointer;
+  background-color: unset;
+  background-image: url('../../../images/arrow-right.svg');
+  background-repeat: no-repeat;
+  background-position: left center;
+  transition: all 0.2s ease-in-out;
+  font-family: 'Formular', Arial, sans-serif;;
+  font-size: 16px;
+  line-height: 14px;
+  text-align: start;
+  text-transform: uppercase;
+  z-index: 1;
+}
+
+.performance__button::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 32px;
+  background-color: #242424;
+  transition: all .4s ease-in-out;
+  background-image: url('../../../images/arrow-right-white.svg');
+  background-repeat: no-repeat;
+  background-position: left center;
+  z-index: -1;
+}
+
+.performance__button:hover::before {
+  width: 100%;
+}
+
+.performance__button:hover {
+  color: #ffffff;
+}
+
+.performance__button:active {
+  transform: scale(1.1);
+}

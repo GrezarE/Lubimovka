@@ -1,0 +1,6 @@
+.popup__button_position_left {
+    top: calc(50% - 33px);
+    left: -98px;
+    width: 66px;
+    height: 66px;
+}

@@ -1,0 +1,10 @@
+.about-project {
+  width: 100%;
+  background-color: #B7C09D;
+}
+
+@media (max-width: 764px) {
+  .about-project {
+    padding-left: 0;
+  }
+}

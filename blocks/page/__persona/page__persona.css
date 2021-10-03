@@ -1,0 +1,12 @@
+.page__persona {
+  margin: 0;
+  padding: 75px 0 112px 0;
+  width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .page__persona {
+    padding: 52px 0 100px 0;
+  }
+}
+

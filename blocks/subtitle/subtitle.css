@@ -1,0 +1,12 @@
+.subtitle {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+@media (max-width: 900px) {
+  .subtitle{
+    flex-direction: column;
+    gap: 36px;
+  }
+}

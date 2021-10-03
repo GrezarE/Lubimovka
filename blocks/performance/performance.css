@@ -1,0 +1,21 @@
+.performance {
+  padding-top: 100px;
+  padding-bottom: 52px;
+}
+
+@media (min-width: 1080px) {
+  .performance {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 480px);
+    justify-items: center;
+    justify-content: center;
+    padding-top: 122px;
+    padding-bottom: 0;
+  }
+}
+
+@media (min-width: 1440px) {
+  .performance {
+    justify-items: unset;
+  }
+}
